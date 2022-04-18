@@ -1,0 +1,308 @@
+/* FONT ****** FONT ****** FONT ****** FONT ****** FONT ****** FONT *****/
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Racing+Sans+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Jomhuria', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/* OTHERS ****** OTHERS ****** OTHERS ****** OTHERS ****** OTHERS ****** OTHERS *****/
+/* * {
+    outline: solid 1px rgb(25, 0, 255);
+} */
+/* SCSS HEX ****** SCSS HEX ****** SCSS HEX ****** SCSS HEX ****** SCSS HEX ****** SCSS HEX *****/
+:root{
+    --black-chocolate: rgb(15, 17, 8);
+    --honey-yellow: rgb(255, 182, 10);
+    --venetian-red: rgb(201, 24, 24);
+    --tan: rgb(208, 172, 139);
+    --white: rgb(255, 255, 255);
+}
+/* H1, H2, H3, H4, H5, H6 ****** H1, H2, H3, H4, H5, H6 ****** H1, H2, H3, H4, H5, H6 ******/
+h1{
+    text-transform: uppercase;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: rgb(208, 172, 139);
+    text-transform: capitalize;
+}
+h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: rgba(15, 17, 8, 0.89);
+    text-transform: initial;
+    font-size: x-large;
+}
+/* BUTTONS ****** BUTTONS ****** BUTTONS ****** BUTTONS ****** BUTTONS ****** BUTTONS ****** BUTTONS *****/
+.btns{
+    padding: 10px 40px 10px 40px;
+    font-size: large;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/* TITLES ****** TITLES ****** TITLES ****** TITLES ****** TITLES ****** TITLES ****** TITLES *****/
+.title_h2{
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+    font-size: 90pt;
+    text-transform: capitalize;
+}
+.title_h2_white{
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+    font-size: 90pt;
+    color: rgb(255, 255, 255);
+}
+/* NAVBAR ****** NAVBAR ****** NAVBAR ****** NAVBAR ****** NAVBAR ****** NAVBAR ****** NAVBAR *****/
+nav{
+    background-color: rgb(208, 172, 139);
+}
+.navbar-brand, .nav-link{
+    color: rgb(15, 17, 8);
+}
+.navbar-brand{
+    font-family: 'Jomhuria', cursive;
+    font-size: 3em;
+    margin-right: 3em;
+}
+.navbar-nav .nav-link{
+    margin-right: 2em;
+}
+div .navbar-nav{
+    justify-content: space-between;
+}
+.nav-link{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(15, 17, 8);
+    font-style: none;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+/* BANNER ****** BANNER ****** BANNER ****** BANNER ****** BANNER ****** BANNER ****** BANNER *****/
+.banner{
+    background-image: url(images/Rope-Access-600x400.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    Height:100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.title_jumbotron{
+    color: #fff;
+    position: relative;
+}
+.text_cta{
+    padding: 40px;
+    z-index: 300;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    font-weight: lighter;
+}
+.text_cta hr{
+    color: rgb(255, 255, 255);
+}
+/* SERVICE ****** SERVICE ****** SERVICE ****** SERVICE ****** SERVICE ****** SERVICE ****** SERVICE *****/
+.services{
+    background-image: url(images/wall-brick-antique-structure-texture-background-concept\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my_h5{
+    color: rgb(201, 24, 24);
+}
+.my_we_do{
+    padding: 100px;
+    background-color: rgb(208, 172, 139);
+}
+h3 .fa-solid{
+    color: rgba(255,182,10,1);
+}
+.my_p_service h5{
+    color: rgb(201, 24, 24);
+}
+.my_h2_service{
+    font-family: 'Jomhuria', cursive;
+    font-size: 90pt;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+.my_text_service{
+    justify-content: center;
+    font-size: x-large;
+    font-weight: lighter;
+    color: rgba(255,182,10,1);
+}
+.jumbotron, h2, p{
+    color: rgb(15, 17, 8);
+    justify-content: center;
+    align-items: center;
+}
+.my_p_service p{
+    font-size: large;
+    font-weight: 200;
+    color: rgba(15, 17, 8, 0.76);
+}
+.my_arrow{
+    padding-top: 20px;
+}
+.my_jumbotron_service{
+    background-color: rgb(15, 17, 8);
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 90px 90px 90px 90px;
+}
+
+.my_row_service{
+    padding-top: 45px;
+}
+/* ABOUT US ****** ABOUT US ****** ABOUT US ****** ABOUT US ****** ABOUT US ****** ABOUT US ****** ABOUT US *****/
+.my_about_us{
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='80' height='84.5' patternTransform='scale(13) rotate(50)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-20.133 4.568C-13.178 4.932-6.452 7.376 0 10c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='hsla(258.5,59.4%,59.4%,1)' fill='none'/><path d='M-20.133 24.568C-13.178 24.932-6.452 27.376 0 30c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='hsla(339.6,82.2%,51.6%,1)' fill='none'/><path d='M-20.133 44.568C-13.178 44.932-6.452 47.376 0 50c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='hsla(198.7,97.6%,48.4%,1)' fill='none'/><path d='M-20.133 64.568C-13.178 64.932-6.452 67.376 0 70c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='hsla(47,80.9%,61%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-481,-585)' fill='url(%23a)'/></svg>");
+    margin-top: 40px;
+}
+.aboutus{
+    background-image: url(images/wave-haikei\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.my_p{
+    font-size: large;
+    font-weight: 200;
+    color: rgba(15, 17, 8, 0.76);
+}
+.p_jumbotron{
+    padding: initial;
+}
+.my_text_abus{
+    padding-bottom: 40px;
+}
+/* CLIENTS ****** CLIENTS ****** CLIENTS ****** CLIENTS ****** CLIENTS ****** CLIENTS ****** CLIENTS *****/
+.my_title_client{
+    color: #fff;
+}
+.clients{
+    background-color: rgb(201, 24, 24);
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.my_text_quote{
+    padding: 20px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.blockquote-footer{
+    color: rgba(255, 181, 10, 0.603);
+    padding-left: 20px;
+}
+/* CONTACT ****** CONTACT ****** CONTACT ****** CONTACT ****** CONTACT ****** CONTACT ****** CONTACT *****/
+.contact{
+    background-image: url(images/wave-haikei\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my_col_buttons{
+    margin-top: 40px;
+}
+/* FOOTER ****** FOOTER ****** FOOTER ****** FOOTER ****** FOOTER ****** FOOTER ****** FOOTER *****/
+.my_footer{
+    background-color: rgb(208, 172, 139);
+}
+.my_ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem 0 0 0;
+}
+.my_ul a{
+    padding: 4px;
+    font-size: large;
+    color: rgb(15, 17, 8);
+}
+.my_ul a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.my_copyright{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(15, 17, 8, 0.74);
+    padding: 0 10px 10px 10px;
+    font-weight: lighter;
+    font-size: small;
+}
+footer hr{
+    margin: 0px;
+}
+/* MEDIA SCREEN ****** MEDIA SCREEN ****** MEDIA SCREEN ****** MEDIA SCREEN ****** MEDIA SCREEN ****** MEDIA SCREEN *****/
+@media screen and (max-width: 576px) {
+    .my_jumbotron_service {
+        padding: 90px 10px 90px 10px;
+    }
+    .my_jumbotron_service h2{
+        font-size: 70pt;
+    }
+    .my_we_do{
+        padding: 90px 10px 90px 10px;
+    }
+}
